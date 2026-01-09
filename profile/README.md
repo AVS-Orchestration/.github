@@ -39,7 +39,7 @@ The Workspace is the physical implementation of **Data Sovereignty**. It ensures
 ```text
 my-avs-workspace/                      <-- Your Private Root
 ├── .env                               <-- Your API Keys (Secrets)
-├── avs-toolkit/                       <-- Cloned Toolkit (The Engine)
+├── avs-toolkit/                       <-- Cloned Toolkit (For updates & reference)
 ├── avs-standard-library/              <-- Cloned Library (The Blueprints)
 │
 └── my-active-project/                 <-- YOUR WORK HAPPENS HERE
@@ -47,6 +47,8 @@ my-avs-workspace/                      <-- Your Private Root
     ├── outputs/                       <-- The Agent's Results
     └── private-stories/               <-- Custom Value Stories you build
 ```
+
+> **💡 Alex's Tip on Installation:** When you install the toolkit "Global System-Wide" (Option A), the `avs` command becomes a permanent part of your computer. You keep the `avs-toolkit/` folder in your workspace so you can easily run `git pull` to get future updates from Patrick.
 
 ## 🔄 The Digital Thread
 
