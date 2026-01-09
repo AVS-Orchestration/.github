@@ -2,6 +2,13 @@
 
 Welcome to the home of the Agentic Value Stream (AVS) framework. We provide the infrastructure and logic blueprints required to transform raw AI potential into repeatable, high-fidelity business value.
 
+# 🎯 Who is this for?
+
+| Persona | Your Goal | Where to Start |
+| :--- | :--- | :--- |
+| **Practitioners (Alex)**<br>*Senior TPMs, Release Train Engineers* | "I want to automate my status reporting, compliance checks, and kill administrative busywork." | [**🚀 AVS Toolkit**](avs-toolkit/README.md)<br>*The CLI Engine for automation.* |
+| **Leaders (Jordan & Casey)**<br>*Directors of PMO, Executives* | "I want to visualize organizational risk, improve velocity, and see the ROI of AI." | [**🧠 Agentic Governance**](my-job-hunt/docs/Agentic-Governance.md)<br>*The Strategy & Heat Map Guide.* |
+
 # 🛡️ Core Mission: Ending "Context Blindness"
 
 The biggest friction point in modern AI is not model intelligence—it is **context blindness**. Agents fail because they lack the implicit knowledge and expert instructions required to perform a task without hallucination.
@@ -38,7 +45,7 @@ my-avs-workspace/                      <-- Your Private Root
 └── my-active-project/                 <-- YOUR WORK HAPPENS HERE
     ├── inputs/                        <-- Your Resumes, Data, Transcripts
     ├── outputs/                       <-- The Agent's Results
-    └── private-stories/               <-- Custom Value Stories you buildlibrary for this AVS.
+    └── private-stories/               <-- Custom Value Stories you build
 ```
 
 ## 🔄 The Digital Thread
@@ -63,7 +70,7 @@ graph LR
     VS-003 <-.-> Context
 ```
 
-## 📈 Executive ROI: The COO’s Dashboard
+## 📈 Strategic Value (For Executives)
 
 By adopting AVS-Orchestration, the enterprise realizes value across three key vectors:
 
@@ -72,6 +79,14 @@ By adopting AVS-Orchestration, the enterprise realizes value across three key ve
 | **Local-First Execution** | Zero IP leakage; bypasses expensive third-party token costs for sensitive data. | **Risk & Cost Reduction** |
 | **Agentic Continuity** | Eliminates "Context Blindness," allowing agents to pick up where experts left off. | **80% Reduction in Rework** |
 | **`uv` Powered Engine** | Rapid deployment of agents without "Dependency Hell" or environment drift. | **Accelerated Time-to-Value** |
+
+## ⚡ Operational Value (For Practitioners)
+
+For the TPMs and Engineers on the ground:
+
+*   **Reclaim 15 Hours/Week:** Automate the "information hunt" for status updates and dependency checks.
+*   **Compliance-as-Code:** Run audits against your own standards instantly, instead of waiting for a manual review.
+*   **Kill the "Blank Page":** Generate high-fidelity drafts (Strategy, Resumes, Analysis) in seconds using proven blueprints.
 
 ## 🏛️ Principles of Sovereignty
 
@@ -92,4 +107,3 @@ Are you looking to implement **Agentic Value Streams** to scale your internal ex
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/patrickheaney/)
 
 **Framework by Patrick Heaney.** *Bridging the gap between latent expert knowledge and autonomous execution.* Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Framework by Patrick Heaney. Licensed under CC BY-SA 4.0.
