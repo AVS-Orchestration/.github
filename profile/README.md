@@ -1,4 +1,4 @@
-# Agentic Value Stream (AVS) Orchestration: The Force Multiplier of Human Knowledg and Skill
+# Agentic Value Stream (AVS) Orchestration: The Force Multiplier of Human Knowledge and Skill
 
 Welcome to the home of the Agentic Value Stream (AVS) framework. We provide the infrastructure and logic blueprints required to transform raw AI potential into repeatable, high-fidelity business value.
 
