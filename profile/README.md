@@ -30,17 +30,15 @@ The Workspace is the physical implementation of **Data Sovereignty**. It ensures
 
 #### Workspace Physical Model:
 ```text
-AVSO-Private-Workspace/                <-- Enterprise Sovereign Root
-├── .env                               <-- Scoped Secrets & Global API Keys
-├── .python-version                    <-- Managed by uv (e.g., 3.12)
-├── avs-toolkit/                       <-- THE ENGINE (Core Orchestrator)
-├── avs-standard-library/              <-- THE BLUEPRINTS (Validated Logic)
+my-avs-workspace/                      <-- Your Private Root
+├── .env                               <-- Your API Keys (Secrets)
+├── avs-toolkit/                       <-- Cloned Toolkit (The Engine)
+├── avs-standard-library/              <-- Cloned Library (The Blueprints)
 │
-└── my-active-project/                 <-- THE VALUE STREAM (Instance)
-    ├── pyproject.toml                 <-- Project-specific deps managed by uv
-    ├── inputs/                        <-- Latent Knowledge (Raw Data)
-    ├── outputs/                       <-- Realized Value (Agentic Results)
-    └── private-value-stories/         <-- Proprietary Reasoning Logic└── private-value-stories/                  <-- Your private tailored value-story library for this AVS.
+└── my-active-project/                 <-- YOUR WORK HAPPENS HERE
+    ├── inputs/                        <-- Your Resumes, Data, Transcripts
+    ├── outputs/                       <-- The Agent's Results
+    └── private-stories/               <-- Custom Value Stories you buildlibrary for this AVS.
 ```
 
 ## 🔄 The Digital Thread
